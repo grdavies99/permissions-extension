@@ -1,0 +1,13 @@
+{
+    "name": "Permission Scrapping",
+    "description": "Scape all permission sets and place them into a google sheet",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+      "action": {
+        "default_popup": "popup.html"
+      },
+      "permissions": ["storage", "activeTab", "scripting"]
+  }
